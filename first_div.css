@@ -1,0 +1,106 @@
+#first_div {
+  width: 500px;
+  height: 800px;
+}
+
+#margin_box {
+  margin-top: 150px;
+  margin-left: 40px;
+}
+
+.toDoForm {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+.inputstyle {
+  position: relative;
+  right: 190px;
+  padding-left: 25px;
+  font-size: 20px;
+  width: 430px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  z-index: 2;
+  bottom: 40px;
+}
+.inputstyle:focus {
+  outline: none;
+}
+.list_style {
+  list-style: none;
+  width: 430px;
+  position: relative;
+  top: 30px;
+  right: 80px;
+  color: whitesmoke;
+  max-height: 400px;
+  overflow-y: scroll;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list_style li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 5px 0px;
+  padding-left: 15px;
+}
+
+.list_style li div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_style li div button {
+  margin-left: 3px;
+  margin-right: 6px;
+  font-size: 10px;
+}
+
+.toDoBtn {
+  right: 185px;
+  position: relative;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  margin: 0px 0px;
+  z-index: 0;
+  bottom: 40px;
+}
+
+.fa-list-ul {
+  position: relative;
+  right: 220px;
+  z-index: 1;
+  margin: 0px 0px;
+  bottom: 40px;
+}
+
+.name-refresh {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  right: 185px;
+  bottom: 50px;
+  z-index: 0;
+}
+
+.fa-sync-alt {
+  position: relative;
+  z-index: 1;
+  right: 143px;
+  bottom: 97px;
+}

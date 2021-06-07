@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New tab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = first_div>
+        <div id = margin_box>
+        <div class = "name-refresh"></div>
+        <i class="fas fa-sync-alt fa-lg"></i>
+        <form class="js-toDoForm toDoForm">
+            <div class = "toDoBtn"></div>
+            <i class="fas fa-list-ul fa-lg"></i>
+            <input class="inputstyle hidden" type = "text" placeholder="To Do List" />
+        </form>
+        <ul class = "js-toDoList list_style hidden">
+        </ul>  
+        </div>
+    </div>
+    <div id = second_div>
+        <div class="js-clock clock_div">
+            <h1 class="clock">00:00</h1>
+        </div>
+        <div class="js-date date_div">
+            <h1 class="date"></h1>
+        </div>
+        <form class="js-form form">
+            <input class="name-input"required maxlength = "15" type ="text" placeholder="What is your name?"/>
+        </form>
+        <h4 class="js-greetings grettings sayhello"></h4>
+        <span class="js-weather weather"></span>
+        <div class= "bookmark">
+            <div class = "first-row">
+                <a href="https://www.google.co.kr/" target="_blank">
+                    <img class="google" src= "images/google.PNG">
+                </a>
+                <a href="https://www.naver.com/" target="_blank">
+                    <img class="naver" src= "images/naver.PNG">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img class="youtube" src= "images/youtube.PNG">
+                </a>
+            </div>
+            <div class = "second-row">
+                <a href="https://www.netflix.com/" target="_blank">
+                    <img class = "netflix" src = "images/netflix.PNG">
+                </a>
+                <a href="https://cyber.shinhan.ac.kr/login.php" target="_blank">
+                    <img class = "shinhan" src = "images/shinhan.PNG">
+                </a>
+                <a href="http://lib.shinhan.ac.kr/main_main.mir" target="_blank">
+                    <img class = "library" src = "images/library.PNG">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="javascript/clock.js"></script>
+    <script src="javascript/gretting.js"></script>
+    <script src="javascript/todo.js"></script>
+    <script src="javascript/background.js"></script>
+    <script src="javascript/weather.js"></script>
+    <script src="https://kit.fontawesome.com/b263a1e1e9.js" crossorigin="anonymous"></script>
+</body>
+</html>
